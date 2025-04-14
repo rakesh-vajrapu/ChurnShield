@@ -32,3 +32,31 @@ Welcome to **ChurnShield**, an end-to-end machine learning pipeline built to pre
 ## 📂 Project Structure
 
 
+
+
+
+
+## 🧪 How It Works
+
+1. Upload historical customer data.
+2. Train the model to classify churn (`Yes` or `No`).
+3. Save model as `.pkl` using `joblib`.
+4. Deploy the model to Azure ML.
+5. Set up Logic App to listen for churn predictions.
+6. Automatically send email/alert or activate bot when high churn risk is detected.
+
+## 🧠 Sample Use Case
+
+> A telecom company uses this system to detect which customers are likely to leave, and instantly sends them a discount offer or personalized support via bot or email — increasing retention and customer satisfaction.
+
+## 💡 Future Enhancements
+
+- Add Power BI dashboards for churn analytics
+- Multi-channel communication (WhatsApp, SMS)
+- Feedback loop to improve model over time
+
+## 👤 Author
+
+**Rakesh Bhagavan Vajrapu**  
+Email: rakeshrb1411@gmail.com  
+Connect with me on [LinkedIn](https://www.linkedin.com/)  
